@@ -1,11 +1,10 @@
-<script lang="ts">
-import { Vue, Component } from "vue-property-decorator";
+import Vue from "vue";
 import { TOBIIEVENTS } from "./TobiiEvents";
-@Component
+
 export class TobiiAwareElement extends Vue {
   tobii = {
     enterTime: 0,
-    exitTime: 0,
+    exitTime: 0 as number|null,
     inside: false,
   };
   created() {
@@ -39,4 +38,3 @@ export class TobiiAwareElement extends Vue {
     });
   }
 }
-</script>
