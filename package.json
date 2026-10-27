@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "typescript": "^4.3.5",
     "vue": "^2.6.14",
